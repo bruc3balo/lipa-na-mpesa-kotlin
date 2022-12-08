@@ -18,7 +18,7 @@ object RetrofitClient {
 
 
         return Retrofit.Builder()
-            .baseUrl(" https://sandbox.safaricom.co.ke")
+            .baseUrl("https://sandbox.safaricom.co.ke")
             .addConverterFactory(GsonConverterFactory.create())
             .client(mOkHttpClient)
             .build()
